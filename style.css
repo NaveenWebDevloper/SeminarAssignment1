@@ -72,3 +72,21 @@ section{
     }
     
 }
+@media (max-width: 768px) {
+    .card {
+        width: 90%;
+        height: auto;
+        margin: 20px;
+    }
+    .card h1 {
+        font-size: 34px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .card .links{
+        margin: 20px auto;
+    }
+    .card .links a {
+        font-size: 20px;
+    }
+}
